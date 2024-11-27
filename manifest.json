@@ -1,0 +1,19 @@
+{
+    "name": "My First PWA",
+    "short_name": "PWA1",
+    "description": "My first attempt at writing a PWA",
+    "start_url": "/pwa1/",
+    "icons": [
+        {
+            "src": "images/icon_512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        },
+        {
+            "src": "images/icon_192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        }
+    ],
+    "display": "standalone"
+}

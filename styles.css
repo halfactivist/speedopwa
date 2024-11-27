@@ -1,0 +1,47 @@
+
+
+html, body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100%;
+    margin: 0 0 0 0;
+    background-color: black;
+    color: white;
+}
+
+.root-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 100%;
+}
+
+.header {
+    flex: none;
+    min-height: fit-content;
+}
+
+.flex-none {
+    flex: none;
+}
+
+.odometer-container {
+    flex: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.major-mono-display-regular {
+    font-family: "Major Mono Display", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.digit {
+    flex: 1 1 auto;
+    align-content: center;
+    text-align: center;
+    font-size: 50vh;
+}

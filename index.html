@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+    <head>
+        <title>My First PWA!</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico"/>
+        <link rel="manifest" href="manifest.json" />
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+        </style>
+        <link href="styles.css" rel="stylesheet"/>
+        <script src="scripts/script.js?nocache"></script>
+        <script defer>
+            //main();
+        </script>
+    </head>
+    <body>
+        <div class="root-container">
+            <div class="header flex-none" onclick="main()">Speedometer PWA</div>
+            <div class="odometer-container major-mono-display-regular">
+                <div id="odometer-tens" class="digit">2</div>
+                <div id="odometer-unit" class="digit">1</div>
+            </div>
+            <div id="speed-display" class="major-mono-display-regular speed-display">speed will display here</div>
+            <div id="location-display" class="flex-none">location will display here</div>
+            <div id="motionevent-display" class="flex-none">motion will display here</div>
+        <!--
+            <div class="flex-none">
+                <input type="range" min="0" max="30" step="0.1" id="user-set-velocity" oninput="setOdometerValue(this.value)"/>
+                <label for="user-set-velocity">Velocity m/s</label>
+            </div>
+        -->
+        </div>
+        
+    </body>
+</html>
