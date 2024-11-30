@@ -25,6 +25,9 @@ npm-debug.log*
 # ---> Environment variables
 .env
 
+# ---> Parcel cache
+.parcel-cache
+
 # ---> Dependency directories
 bower_components/
 

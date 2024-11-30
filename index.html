@@ -9,9 +9,10 @@
             @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
         </style>
         <link href="styles.css" rel="stylesheet"/>
-        <script src="scripts/script.js?nocache"></script>
-        <script defer>
+        <script type="module">
             //main();
+            import { main } from './dist/script.js';
+            window.main = main;
         </script>
     </head>
     <body>
